@@ -1,0 +1,12 @@
+# IDE
+.idea/
+.venv/
+
+# macOS
+.DS_Store
+**/.DS_Store
+.xml
+
+# cache
+.pyc
+__pycache__/
