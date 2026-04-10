@@ -3,6 +3,8 @@ from utils.data_management.metric_calculator import *
 
 import pandas as pd
 
+# にほんごがだいすきです
+
 df = pd.read_csv("Titanic-Dataset.csv")
 
 if __name__ == '__main__':
