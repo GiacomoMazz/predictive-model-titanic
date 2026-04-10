@@ -27,4 +27,4 @@ def populate_nan_columns(df: pd.DataFrame, column: str, value: str | float | int
     df[column] = df[column].fillna(value)
 
 def remove_columns(df: pd.DataFrame, columns: list[str]):
-    df.drop(columns=[columns])
+    df.drop(columns=columns, inplace=True)
